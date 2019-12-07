@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-top-bar',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
+  readonly icons = {
+    faCartPlus
+  };
   constructor() { }
 
   ngOnInit() {
