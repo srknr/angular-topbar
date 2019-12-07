@@ -8,7 +8,13 @@ import { ListComponent } from './list/list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule ],
+  imports:      [ 
+    BrowserModule, 
+    FormsModule, 
+    RouterModule.forRoot([
+      {path: "", component: ListComponent}
+    ])
+     ],
   declarations: [ AppComponent, ListComponent, TopBarComponent ],
   bootstrap:    [ AppComponent ]
 })
