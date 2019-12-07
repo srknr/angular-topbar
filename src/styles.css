@@ -80,7 +80,7 @@ label {
   cursor: pointer;
  // background-color: #1976d2;
   color: #1976d2;
- // border: none;
+  border: none;
 }
 
 .button:hover, button:hover {
